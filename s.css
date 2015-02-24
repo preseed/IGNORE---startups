@@ -69,7 +69,7 @@ body {
 
 #wrapper {
   margin: 0 auto;
-  width: 900px;
+  width: 920px;
   box-sizing: content-box;
 }
 
@@ -350,10 +350,11 @@ h2 {
   position: relative;
   display: inline-block;
   box-sizing: border-box;
-  /*float: left;*/
+  float: left;
   width: 300px;
   height: 200px;
-  
+  margin-top:0.5%;
+  margin-left:0.5%;
 }
 .order a {
   display: inline-block;

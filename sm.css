@@ -36,7 +36,7 @@
   position: relative;
   display: inline-block;
   box-sizing: border-box;
-  /*float: left;*/
+  float: inherit;
   width: auto;
   height: auto;
 }
