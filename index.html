@@ -1,454 +1,276 @@
-h2, h1, p, span, footer, div, a, br, body, html, span, form, nav, input[type="submit"], img, ul, li, h3, h4, h5, h6 {
-  margin: 0;
-  padding: 0;
-  /*    display:block;*/
-  border: 0;
-  box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html xmlns:og="http://ogp.me/ns#">
+	
+<head>
+	
+		<meta name="MobileOptimized" content="320" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+		<link rel="image_src" href="img/nnn.png" />
 
-@font-face {
-  font-family: "bravosc";
-  src: url(font/BravoSC.otf);
-}
-@font-face {
-  font-family: "Larsseit";
-  src: url(font/Larsseit.otf);
-}
-body {
-  color: #fff;
-  font-family: "Larsseit";
-  height: 100%;
-  background: #0c0c0c;
-  /*
-    background: url('img/bg3.jpg') no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 100%;
-  */
-}
+		<link rel="stylesheet" type=text/css href="s.css">
+		<link rel="stylesheet" type=text/css href="sm.css">
+        <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+		<title>Preseed Startups</title>
+		
+		
+		<style>
+			@media only screen and ( max-width:769px){
+			.homeicon{
+			position:absolute !important;
+			height:50px;
+			padding-top:2%;
+			
+			}
+			}
+		</style>
+	</head>
+	
+	
+<body>
+	<section style="width:100%;display:flex;flex-wrap:wrap;height:100%">
+	<!-- Home page icon -->
+	<div  class="homeicon" style="height:60px;padding-left:4%;float:left;width:100%;padding-top:2%;position:absolute;">
+ 		<a href="http://preseed.in" target="_blank"  >
+            <img src="img/home1.png" alt="Home" style="float:left;" >
+        </a>
+    </div>
 
-::selection {
-  background: #94af4e;
-  color: #000;
-}
+<!-- Sheep image -->
+﻿<div id="first_l"><!-- Change top padding in s.css to add more contents of left side on image-->
+	<div class="dawn1">
+		<center>
+			<a class='ancLinks' href="#first_r" id="dawn1">
+				<img src="img/dawn.png">
+			</a>
+		</center>
+	</div>
+</div>
 
-::-moz-selection {
-  background: #94af4e;
-  color: #000;
-}
 
-#twenty {
-  width: 100%;
-  background: none;
-  height: 20px;
-  clear: both;
-}
 
-#scroller {
-  position: fixed;
-  bottom: 30px;
-  right: 0;
-  background: #0c0c0c;
-  color: #f7f7f7;
-  width: 40px;
-  height: 40px;
-  cursor: pointer;
-  display: none;
-  padding-top: 6px;
-  text-align: center;
-  border: 2px solid #f7f7f7;
-  box-sizing: border-box;
-  opacity: 0.8;
-}
 
-#scroller:hover {
-  opacity: 1;
-}
 
-#wrapper {
-  margin: 0 auto;
-  width: 920px;
-  box-sizing: content-box;
-}
+<div id="first_r">
+<img src="img/startupscopy.png" width="200"  height="65" padding-bottom:"15%;"/><br><br>
 
-h2 {
-  display: inline;
-  font-family: "Aerial";
-  margin: 0 auto;
-  text-transform: uppercase;
-}
+<a id="about"><div id="twenty"></div></a>
 
-/***********************first*****************/
 
-#first_l {
-  width: 50%;
-  min-width: 300px;
-  max-height: 800px;
-  box-sizing: border-box;
-  display: inline-block;
-  background: url(img/bg3.jpg) no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  padding-top: 500px;
-  /*padding-top: calc(50vh - 120px);*/
-}
+<!-- <h2 style="text-transform:none !important;">Preseed Startups</h2><br/> -->
+ <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                      <h1 style="line-height:1.3em;color:#ffffff;font-family:myriadpror">We <br/>Educate | Inspire | Co Build<br/>early stage startups</h1><br/>
+                </div>
+            </div>
+</div>                
 
-#first_r {
-  width: 50%;
-  min-width: 300px;
-  max-height: 800px;
-  font-family: "bravosc";
-  box-sizing: border-box;
-  display: inline-block;
-  color: #f7f7f7;
-  float: right;
-  text-align: center;
-  /*padding: calc(50vh - 100px) 60px 0 60px;*/
-  padding: 40px 60px 0 60px;
-}
-#first_r h2 {
-  margin: 0 auto;
-  text-align: center;
-  font-size: 1.2 em;
-  font-family: "Larsseit";
-  display: block;
-  box-sizing: border-box;
-  line-height: 1.1em;
-}
-#first_r span {
-  font-family: "Larsseit";
-  font-size: 1.0 em;
-  line-height: 1.5em;
-  display: block;
-  text-align:center;
-}
-#first_r span a {
-  box-sizing: border-box;
-  text-align: center;
-  text-decoration: none;
-  color: #728838;
-}
-#first_r span a:hover {
-  text-decoration: underline;
-  cursor: pointer;
-  color: #94af4e;
-}
+<div id="twenty"></div>
 
-.soc {
-  display: block;
-  box-sizing: border-box;
-  text-align: center;
-  width: 100%;
-  box-sizing: border-box;
-}
-.soc a {
-  height: 43px;
-  display: inline-block;
-  box-sizing: border-box;
-  padding: 0 10px 0 10px;
-  cursor: pointer;
-}
-.soc a img {
-  display: inline-block;
-  box-sizing: border-box;
-}
+<span style="font-size:20px;font-weight:lighter !important;">AT 
+	<a href="http://preseed.in" target="_blank" style="font-weight:800;text-style:bold !important;">
+		<b>PRESEED</b>
+	</a> WE INSPIRE IDEAS, FAITH, AND ACTION. PRESEED STARTUPS ARE THE EARLIEST RESULTS OF THOSE ACTIONS.
+</span>
+<br>
+<br>
+<br>
+<span style="font-size:17px;">The supplies to 
+	<b style="font-weight:900;">Preseed Startups </b>exclusively come from 
+	<a href="http://labs.preseed.in/" target="_blank">Preseed Labs</a>
+	 and Preseed's <a href="http://sk.preseed.in" target="_blank"> Startup Kitchen</a>.
+</span>
+<br/>
+<br/>
+<!-- <center><a href="https://applypreseed.typeform.com/to/pJF68w" target="_blank" >SK Applicant Form  </a></center> -->
 
-@-webkit-keyframes wobble-vertical {
-  16.65% {
-    -webkit-transform: translateY(6px);
-    transform: translateY(6px);
-  }
+<span style="font-size:17px">A brief 
+	<a href="https://medium.com/the-preseed/preseed-startups-700010c5b054" target="_blank">note</a>
+	by our founder about Preseed Startups.</span>
+<br/>
+<br/>
 
-  33.3% {
-    -webkit-transform: translateY(-4px);
-    transform: translateY(-4px);
-  }
+<div id="twenty"></div>
 
-  49.95% {
-    -webkit-transform: translateY(4px);
-    transform: translateY(4px);
-  }
+<a class="ancLinks" href="#works" id="dawn"><img src='img/dawn.png'></a>
+</div>
 
-  66.6% {
-    -webkit-transform: translateY(-2px);
-    transform: translateY(-2px);
-  }
 
-  83.25% {
-    -webkit-transform: translateY(1px);
-    transform: translateY(1px);
-  }
+</section>
 
-  100% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
-}
-@keyframes wobble-vertical {
-  16.65% {
-    -webkit-transform: translateY(6px);
-    -ms-transform: translateY(6px);
-    transform: translateY(6px);
-  }
 
-  33.3% {
-    -webkit-transform: translateY(-4px);
-    -ms-transform: translateY(-4px);
-    transform: translateY(-4px);
-  }
 
-  49.95% {
-    -webkit-transform: translateY(4px);
-    -ms-transform: translateY(4px);
-    transform: translateY(4px);
-  }
 
-  66.6% {
-    -webkit-transform: translateY(-2px);
-    -ms-transform: translateY(-2px);
-    transform: translateY(-2px);
-  }
 
-  83.25% {
-    -webkit-transform: translateY(1px);
-    -ms-transform: translateY(1px);
-    transform: translateY(1px);
-  }
 
-  100% {
-    -webkit-transform: translateY(0);
-    -ms-transform: translateY(0);
-    transform: translateY(0);
-  }
-}
-#dawn {
-  cursor: pointer;
-  width: 120px;
-  height: 18px;
-  line-height: 18px;
-  box-sizing: border-box;
-  -webkit-transform: translateZ(0);
-  -ms-transform: translateZ(0);
-  transform: translateZ(0);
-}
 
-#dawn1 {
-  cursor: pointer;
-  width: 120px;
-  height: 18px;
-  line-height: 18px;
-  box-sizing: border-box;
-  -webkit-transform: translateZ(0);
-  -ms-transform: translateZ(0);
-  transform: translateZ(0);
-}
 
-#dawn:hover, #dawn1:hover {
-  -webkit-animation-name: wobble-vertical;
-  animation-name: wobble-vertical;
-  -webkit-animation-duration: 1.5s;
-  animation-duration: 1.5s;
-  -webkit-animation-timing-function: ease-in-out;
-  animation-timing-function: ease-in-out;
-  -webkit-animation-iteration-count: 1;
-  animation-iteration-count: 1;
-}
 
-.dawn1 {
-  opacity: 0.8;
-  display: none;
-  box-sizing: border-box;
-  width: 140px;
-  height: 40px;
-  background: #0c0c0c;
-  padding-top: 10px;
-  text-align: center;
-  margin: calc(50vh - 120px) auto;
-}
 
-.dawn1:hover {
-  opacity: 1;
-}
 
-/****************logo*********************/
-#logo {
-  position: relative;
-  background: none;
-  box-sizing: border-box;
-  width: 200px;
-  bottom: 0px;
-  left: calc(50% - 100px);
-}
 
-#logo > a {
-  box-sizing: border-box;
-  display: inline-block;
-}
 
-/*****************works******************/
-#works {
-  width: 100%;
-  background-color: #f7f7f7;
-  color: #0c0c0c;
-}
 
-#white {
-  color: #f7f7f7;
-}
 
-.block {
-  overflow-wrap: normal;
-  word-wrap: break-word;
-  width: 100%;
-  font-size: 1.2em;
-  /*  font-family: $bigfont;*/
-  box-sizing: border-box;
-  display: inline-block;
-  line-height: 1.6em;
-  font-family: "Larsseit";
-  text-align: left;
-}
-.block h2 {
-  margin: 0 auto;
-  text-align: center;
-  font-size: 1.8em;
-  font-family: "bravosc";
-  display: block;
-  box-sizing: border-box;
-  line-height: 1.1em;
-}
-.block span {
-  display: block;
-}
-.block a {
-  box-sizing: border-box;
-  text-align: center;
-  text-decoration: none;
-  text-decoration: underline;
-  color: #555;
-}
-.block a:hover {
-  text-decoration: none;
-  cursor: pointer;
-  /*  color: #8fcb64;*/
-}
 
-/***************************************order************************************/
-.order {
-  position: relative;
-  display: inline-block;
-  box-sizing: border-box;
-  float: left;
-  width: 300px;
-  height: 200px;
-  margin-top:5px;
-  margin-left:auto;
-  margin-right: auto;
-}
-.order a {
-  display: inline-block;
-  box-sizing: border-box;
-  width: 300px;
-  height: 200px;
-}
-.order a:hover {
-  cursor: pointer;
-}
-.order span {
-  box-sizing: border-box;
-  position: absolute;
-  display: none;
-  text-align: center;
-  background: white;
-  width: 100%;
-  height: 100%;
-  opacity: 0.9;
-  padding-top: 67px;
-}
 
-/*****************contact******************/
-.contact {
-  text-align: left;
-  width: 45vw;
-  margin: 0 auto;
-}
-.contact a {
-  text-decoration: none;
-  color: #aaa;
-}
-.contact a:hover {
-  text-decoration: underline;
-  color: #fff;
-}
-.contact h4 {
-  height: 40px;
-  line-height: 30px;
-  display: block;
-  clear: both;
-}
 
-#name, #mail {
-  margin-bottom: 10px;
-  /*float:right;*/
-  width: 100%;
-  height: 40px;
-  background: #f2f2f2;
-  padding: 8px 37px 9px 15px;
-  display: inline-block;
-  font-family: "Larsseit";
-  box-sizing: border-box;
-  border: none;
-}
 
-#mess {
-  display: inline-block;
-  box-sizing: border-box;
-  background: #eee;
-  font-family: "Larsseit";
-  width: 100%;
-  padding: 8px 37px 9px 15px;
-  background: #f2f2f2;
-}
 
-#name:focus, #mail:focus, #mess:focus {
-  outline: none;
-}
 
-#send {
-  width: 45%;
-  height: 60px;
-  margin: 0 auto;
-  display: block;
-  background: #0c0c0c;
-  font-family: "bravosc";
-  font-size: 1.6em;
-  text-decoration: none;
-  cursor: pointer;
-  color: #0c0c0c;
-  background-color: #728838;
-}
 
-#send:hover {
-  box-sizing: border-box;
-  color: #f7f7f7;
-  background: #94af4e;
-}
 
-.opl {
-  position: fixed;
-  top: 100px;
-  left: 0px;
-  z-index: 99999;
-}
 
-.opl a {
-  width: 73px;
-  height: 56px;
-  text-indent: -9999px;
-  display: block;
-  background: url("../s3.amazonaws.com/onepagelove/one-page-love-award-left.png") no-repeat;
-}
+
+
+
+<div class="block" id="works" >
+	<center><div id="wrapper">
+	 <center><span style="font-size:30px;padding-top:10%;font-weight:lighter !important"><font size="4">VISION</font>  |  <font size="4">HUSTLE</font>  |  <font size="4">CODE</font>  |  <font size="4">DESIGN</font>  |  <font size="4">CULTURE</font>  |  <font size="4">PARTNERSHIPS</font>  |  <font size="4">RESEARCH</font>  |  <font size="4">SLIDEDECK</font>  |  <font size="4">ADVICE</font></span></center>
+		<a id="portfolio"><div id="twenty"></div></a>
+        <br/>
+        
+		<!--<h2>In The Kitchen</h2>-->
+       
+       
+
+
+		<div id="twenty"></div>
+
+
+		<div class="order">
+			
+				<span>
+					
+					<br> Majorly owned by Preseed.<br><a href="http://www.todoed.co/" target="_blank"><br/> Open its web page</a>
+				</span>
+				<!-- <img src='img/projects/g.jpg' alt=""> -->
+				<div style="background:purple;height:200px;;width:280px;">
+					<h1 style="padding:5%;padding-top:28%;color:white;">Todoed</h1>
+				</div>
+			
+		</div>
+		<div class="order">
+			
+				<span>
+					<br/>
+					Majorly owned by Preseed.
+					<br><a href="https://www.myidealist.co/" target="_blank"><br/> Open its web page</a>
+				</span>
+				<!-- <img src='img/projects/g.jpg' alt=""> -->
+				<div style="background:orange;height:200px;width:280px;">
+					<h1 style="padding:5%;padding-top:28%;color:white;">MyIdeaList </h1>
+				</div>
+			
+		</div>
+		
+		<div class="order">
+			
+				<span>
+					<br/>
+					Majorly owned by Preseed.
+					<br><a href="http://preseedprints.com/index.php" target="_blank"><br/> Open its web page</a>
+				</span>
+				<!-- <img src='img/projects/g.jpg' alt=""> -->
+				<div style="background:Darkcyan;height:200px;;width:280px;">
+					<h1 style="padding:5%;padding-top:28%;color:white;">Preseed Prints </h1>
+				</div>
+			
+		</div>
+
+		<div class="order">
+			
+				<span>
+					<br/>
+					Majorly owned by Preseed.
+					<br><a href="http://preseedprints.com/index.php" target="_blank"><br/> Open its web page</a>
+				</span>
+				<!-- <img src='img/projects/g.jpg' alt=""> -->
+				<div style="background:Darkcyan;height:200px;;width:280px;">
+					<h1 style="padding:5%;padding-top:28%;color:white;">Preseed Prints </h1>
+				</div>
+			
+		</div>
+<!--<div class="order">
+			
+				<span>
+					<br/>
+					Minority owned by Preseed.
+					<br><a href="http://qupid.in/" target="_blank"><br/> Open its web page</a>
+				</span>
+				
+				 <div style="background:darkgreen;height:200px;;width:300px;">
+					<h1 style="padding:5%;padding-top:28%;color:white;">Qupid  </h1>
+				</div>
+			
+		</div>-->
+
+<!--<div class="order">
+			
+				<span>
+					<br/>
+					Minority owned by Preseed.
+					<br><a href="http://codeintegration.in/" target="_blank"><br/> Open its web page</a>
+				</span>
+				 <img src='img/projects/g.jpg' alt="">
+				 <div style="background:darkcyan;height:200px;;width:280px;">
+					<h1 style="padding:5%;padding-top:28%;color:white;">Code Integration  </h1>
+				</div>
+			
+		</div>-->
+		
+
+
+
+        <!--<div class="order">
+			
+				<span>
+					<h3></h3>
+					
+				</span>
+			
+			
+		</div>-->
+		
+		
+		
+		<br/>
+		
+		<div id="twenty"></div>
+		<div id="twenty"></div>
+		<br>
+		<br>
+		<p>If you wish to apply to be a Preseed incubated startup like the one's above , apply to our <a href="http://sk.preseed.in/" target="_blank" style="color:#728838;">kitchen</a>.</p>
+	</div></center>
+</div><div class="block" id="white" style="background:white;">
+	<a id="cform"><div id="twenty"></div></a>
+    <br/>
+	<div id="twenty"></div>
+	<div class="contact">
+    <!-- <p>Email us at <a href="mailto:tsk@preseed.in" style="color: #CF0">sk@preseed.in</a> with your and <a href="https://medium.com/@Nishchal/slide-deck-a1fdbbc61892" style="color: #CF0" target="_blank" >Slide Deck </a>. If you have do not have a Slide Deck but you have been able to progress enough to show us something about it, please fill up this <a href="https://applypreseed.typeform.com/to/mJHjRE" target="_blank" style="color: #CF0">form </a>if you would like it to become a part of Startup Kitchen with you retaining a share in your project that you reasonably deserve. 
+</p>
+		
+	</div> -->
+	<div id="twenty"></div>
+    <br/>
+   
+</div><div id="scroller">up</div>
+<!-- <center> <h5> a <a href="http://entrepreneurlab.preseed.in/" style="color:#990000; text-decoration:none" target="_blank" >Preseed Entrepreneur Lab</a> project</h5></center> -->
+<a href="http://preseed.in/" target="_blank"><center><img src="img/Nblackbacklogo.png" width="130" height="40"/></center> 
+<br/>
+
+	<div>
+	
+		<p style="text-align:center; margin-bottom:10px;"><a href="http://preseed.in/legal" target="_blank" title="" style="color:black;text-decoration:none;"> Copyright © 2015 Preseed Ventures Pvt. Ltd. | All Rights Reserved</p></a>
+	
+	</div>
+
+
+
+		<script type="text/javascript" src ="js/jquery.js"></script>
+		<script type="text/javascript" src ="js/js.js"></script>
+</body>
+
+
+</html>
