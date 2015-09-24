@@ -266,7 +266,9 @@ h2 {
   height: 40px;
   background: #0c0c0c;
   text-align: center;
-  margin: calc(23vh - 120px) auto;
+  margin-top:-200px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .dawn1:hover {
