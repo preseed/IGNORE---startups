@@ -2,6 +2,7 @@
   /* Specific to this particular image */
   #first_l {
     width: 100%;
+    background: url(img/bg3.jpg) no-repeat center center;
   }
 
   #first_r {
@@ -30,14 +31,17 @@
   #wrapper {
     width: 90vw;
   }
-
-  
+   #first_l {
+    width: 100%;
+    background: url(img/bg3.jpg) no-repeat center center;
+  }
 .order {
   position: relative;
   display: inline-block;
+  background-color: #000;
   box-sizing: border-box;
   float: inherit;
-  width: auto;
+  width: 100%;
   height: auto;
 }
 .order a {
