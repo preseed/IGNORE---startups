@@ -157,7 +157,7 @@ a:focus {
     background: url(../img/intro-bg.jpg) no-repeat;
     background-color: #000;
     background-attachment: fixed;
-    background-position: top center;
+    background-position: bottom center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
