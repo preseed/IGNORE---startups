@@ -361,6 +361,9 @@ ul.banner-social-buttons {
     ul.banner-social-buttons li:last-child {
         margin-bottom: 0;
     }
+    .menu_img {
+		padding-left: 10px;
+	}
 }
 
 footer {
@@ -395,4 +398,7 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
+}
+.menu_img {
+	padding-top: 10px;
 }
